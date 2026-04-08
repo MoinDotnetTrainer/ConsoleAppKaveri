@@ -104,11 +104,11 @@ namespace ConsoleAppKaveri
             Console.WriteLine("My rollno is:" + Rollno1);
             */
 
-            string str = null;
-            int myres = Convert.ToInt32(str); //  0
-            int myres1 = int.Parse(str);//  run time error
-            Console.WriteLine(myres);
-            Console.WriteLine(myres1);
+            //string str = null;
+            //int myres = Convert.ToInt32(str); //  0
+            //int myres1 = int.Parse(str);//  run time error
+            //Console.WriteLine(myres);
+            //Console.WriteLine(myres1);
 
             // what is Nullable
             // value type datatype & ref type datatype
@@ -116,15 +116,15 @@ namespace ConsoleAppKaveri
             // int byte short ,float 
             // unfix , arrays , string object
 
-            int? number = null;
+            //int? number = null;
 
-            // number nullable --> so that i can take null value
-            string mystring = null;
+            //// number nullable --> so that i can take null value
+            //string mystring = null;
 
-            int[] MyNumber = { 34, 4, 56, 766 };
-            Console.WriteLine(MyNumber[0]);
+            //int[] MyNumber = { 34, 4, 56, 766 };
+            //Console.WriteLine(MyNumber[0]);
 
-            string[] mynames = { "hi","hello","test","welcome"};
+            //string[] mynames = { "hi","hello","test","welcome"};
         }
     }
 }
