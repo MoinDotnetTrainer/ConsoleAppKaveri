@@ -12,13 +12,13 @@ namespace ConsoleAppKaveri
         readonly int y;
         public ConstrReadonly()
         {
-            x = 456;
+          //  x = 456;
             y = 3;
         }
 
         public void T1()
         {
-            y = 4;
+          //  y = 4;
         }
     }
 }

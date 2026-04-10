@@ -44,14 +44,28 @@
 
             //   ConstrChain obj = new ConstrChain(334);
 
-            MultipleReturnType obj = new MultipleReturnType();
-            (int x, string y) = obj.T3(12, "kaveri");
-            Console.WriteLine(x);
-            Console.WriteLine(y);
+            //MultipleReturnType obj = new MultipleReturnType();
+            //(int x, string y) = obj.T3(12, "kaveri");
+            //Console.WriteLine(x);
+            //Console.WriteLine(y);
 
-            obj.T4(12, 23, out int Add, out int Sub);
-            Console.WriteLine(Add);
-            Console.WriteLine(Sub);
+            //obj.T4(12, 23, out int Add, out int Sub);
+            //Console.WriteLine(Add);
+            //Console.WriteLine(Sub);
+
+            //Child c = new Child();
+            //// c.Mul();
+            //// c.Div();
+
+            //c.Add();
+            //c.Sub();
+
+            RBI obj = new RBI();
+            obj.StaffData();
+            obj.CustomerData();
+            obj.Withdraw();
+            obj.Deposit();
+
         }
     }
 }
