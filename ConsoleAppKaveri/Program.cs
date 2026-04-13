@@ -1,4 +1,6 @@
-﻿namespace ConsoleAppKaveri
+﻿using System.Net.Mail;
+
+namespace ConsoleAppKaveri
 {
     internal class Program
     {
@@ -60,12 +62,39 @@
             //c.Add();
             //c.Sub();
 
-            RBI obj = new RBI();
-            obj.StaffData();
-            obj.CustomerData();
-            obj.Withdraw();
-            obj.Deposit();
+            /*    RBI obj = new RBI();
+                obj.StaffData();
+                obj.CustomerData();
+                obj.Withdraw();
+                obj.Deposit();
+            */
 
+            //   Emp obj = new Emp();
+            //  obj.test();
+            // obj.data();
+            //Demo d = new Demo();
+            //d.test();
+            //d.Add(); // extension method    
+            //d.Sub();
+
+
+            //  Exception_Ex obj = new Exception_Ex();
+            // obj.Div();
+            //obj.getLen();
+
+
+            try
+            {
+                Prop p = new Prop();
+                p.x_ = 34;
+                p.y_ = 45;
+                p.Add();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+           
         }
     }
 }
