@@ -1,4 +1,5 @@
 ﻿using System.Net.Mail;
+using ClassLibrary1;
 
 namespace ConsoleAppKaveri
 {
@@ -6,8 +7,15 @@ namespace ConsoleAppKaveri
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //Console.WriteLine("Hello, World!");
 
+
+            //ProPix obj = new ProPix();
+            //obj.ProjectData();
+            //obj.Empdata();
+            //obj.SalData();
+
+            // Send Email ()resume multi send email
             /*
             ClassExample obj = new ClassExample();
             obj.Add();
@@ -82,19 +90,54 @@ namespace ConsoleAppKaveri
             // obj.Div();
             //obj.getLen();
 
+            /*
+                        try
+                        {
+                            Prop p = new Prop();
+                            p.x_ = 34;
+                            p.y_ = 45;
+                            p.Add();
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                        }
+                       */
 
-            try
-            {
-                Prop p = new Prop();
-                p.x_ = 34;
-                p.y_ = 45;
-                p.Add();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-           
+            //genMethod obj = new genMethod();
+            //obj.test("12",true);
+            //obj.Mymethod<int>(34);  // type as an argument , insted datatype
+            //obj.Mymethod<string>("Test");
+            //obj.Mymethod<bool>(true);
+            //genClass<int, string> obj = new genClass<int, string>();
+            //obj.Test1(12, "kaveri");
+            //obj.Test2(34, "kaveri");    
+            //obj.Test3(56, "kaveri");
+            //obj.Test4(45,"test");
+
+
+            // collection
+
+            //array --> Drawback
+            //arry lnegth fixed
+            //Collection --> dynamic arrays --> stored , retrived, Insert , =deleting can be done easily
+            // Gen coll & non gen collection
+
+            //  genColl obj = new genColl();
+
+            // obj.StoreStd();
+
+
+
+            //Async obj = new Async();
+
+
+            //Task t = new Task(obj.Exe1);
+            //t.Start();
+            //t.Wait();
+            //Console.ReadLine();
+
+            LINQExamples.test();
         }
     }
 }
